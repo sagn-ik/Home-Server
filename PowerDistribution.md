@@ -11,6 +11,7 @@ The power distribution system for the home server is designed to ensure **stable
 
 ## Power Conversion
 Due to instability in the 5V rail of the ATX power supply, the **12V output is stepped down** to 5V using a **DC-DC Buck Converter** for a more stable power source.
+![Unstable supply](images/Fluctuating5V-Supply.mp4)
 
 ### Voltage Regulation
 - **Step-Down Converter (12V to 5V, 5A rated)** 
