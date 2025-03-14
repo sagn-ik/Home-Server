@@ -28,7 +28,7 @@ The system distributes power efficiently to different components:
 | **1TB HDD (NAS)**      | 12V & 5V        | Direct from ATX PSU             |
 | **MikroTik Switch**    | 12V             | Direct from ATX PSU             |
 
-![Power Distribution Setup](images/PowerDistributionCircuit.pdf)
+![Circuit Diagram](images/PowerDistributionCircuit.pdf)
 
 ## Fuse Unit
 Fuse units are also installed to keep a check on the current drawn by each of the components.
