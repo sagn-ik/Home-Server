@@ -28,6 +28,15 @@ The system distributes power efficiently to different components:
 | **1TB HDD (NAS)**      | 12V & 5V        | Direct from ATX PSU             |
 | **MikroTik Switch**    | 12V             | Direct from ATX PSU             |
 
+## Fuse Unit
+Fuse units are also installed to keep a check on the current drawn by each of the components.
+
+| Component               | Max Current |
+|-------------------------|-----------------|
+| **Raspberry Pi 3B**    | 3A              |
+| **Raspberry Pi 5**     | 5A              |
+| **MikroTik Switch**    | 1A             |
+
 ## Cooling & Heat Management
 The power system includes **four cooling fans** to maintain stable temperatures:
 - **2 Intake Fans** (Pull cool air inside)
