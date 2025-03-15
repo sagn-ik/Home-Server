@@ -56,6 +56,3 @@ sudo systemctl enable --now tailscaled
 - Official Tailscale Documentation: [https://tailscale.com/kb/](https://tailscale.com/kb/)
 - Raspberry Pi Documentation: [https://www.raspberrypi.org/documentation/](https://www.raspberrypi.org/documentation/)
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-
