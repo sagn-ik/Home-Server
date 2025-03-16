@@ -40,6 +40,7 @@ The home server runs various services to enhance functionality:
 - [ ] Set up backup solutions for data redundancy.
 - [ ] Set up power backup and power cut alerts.
 - [ ] Implement automation scripts for system maintenance.
+- [ ] Integrate multiplatform IoT devices with HAOS
 
 ## Contributing
 This is a personal project, but suggestions and improvements are always welcome! Feel free to open issues or contribute via pull requests.
