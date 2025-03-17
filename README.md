@@ -17,7 +17,7 @@ The server is designed for reliability, low power consumption, and expandability
 - **Raspberry Pi 3B** – Running Home Assistant.
 - **Raspberry Pi 5** – Running Tailscale, Pi-hole, MotionEye, Portainer, and OpenMediaVault (NAS).
 - **MikroTik Switch** – Connects both Raspberry Pis via Ethernet for better network performance.
-- **450W ATX Power Supply** – Modified to power the system (considering stepping down 12V to 5V for stability).
+- **450W ATX Power Supply** – Modified to power the system.
 
 ## Software Stack
 The home server runs various services to enhance functionality:
