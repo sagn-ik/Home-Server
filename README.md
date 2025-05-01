@@ -11,6 +11,8 @@ This repository documents my journey of building a **home server** that hosts mu
 - **Custom Monitoring Dashboard** – Tracks system metrics, temperatures, and performance.
 
 The server is designed for reliability, low power consumption, and expandability, leveraging Raspberry Pis and open-source software.
+![Alt Text](images/ServerP.jpeg)
+
 
 ## Hardware Setup
 ### Core Components:
