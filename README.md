@@ -12,6 +12,7 @@ This repository documents my journey of building a **home server** that hosts mu
 
 The server is designed for reliability, low power consumption, and expandability, leveraging Raspberry Pis and open-source software.
 ![Alt Text](images/ServerP.jpeg)
+Ignore the wire mess — 😅
 
 
 ## Hardware Setup
