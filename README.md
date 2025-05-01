@@ -17,12 +17,12 @@ The server is designed for reliability, low power consumption, and expandability
 - **Raspberry Pi 3B** – Running Home Assistant.
 - **Raspberry Pi 5** – Running Tailscale, Pi-hole, MotionEye, Portainer, and OpenMediaVault (NAS).
 - **MikroTik Switch** – Connects both Raspberry Pis via Ethernet for better network performance.
-- **450W ATX Power Supply** – Modified to power the system.
+- **An old 450W ATX Power Supply** – Modified to power the system.
 
 ## Software Stack
 The home server runs various services to enhance functionality:
-- **Operating Systems:** Raspberry Pi OS / Debian-based distros.
-- **Home Assistant:** Smart home integration and automation.
+- **Operating Systems:** Raspberry Pi OS / Debian-based distros [Used Raspbian in the Pi 5].
+- **Home Assistant:** Smart home integration and automation. [Used HAOS in the Pi 3B]
 - **Pi-hole:** DNS-based ad blocking.
 - **MotionEye:** Surveillance and camera management.
 - **Tailscale:** Encrypted remote access via WireGuard VPN.
@@ -40,7 +40,6 @@ The home server runs various services to enhance functionality:
 - [ ] Set up backup solutions for data redundancy.
 - [ ] Set up power backup and power cut alerts.
 - [ ] Implement automation scripts for system maintenance.
-- [ ] Integrate multiplatform IoT devices with HAOS
 
 ## Contributing
 This is a personal project, but suggestions and improvements are always welcome! Feel free to open issues or contribute via pull requests.
