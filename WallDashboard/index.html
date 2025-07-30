@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elegant Analog Clock</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div id="top-left-buttons">
+  <div class="icon-button" id="calendar-btn" onclick="showCalendar()">📅</div>
+  <div class="icon-button" id="alarm-btn" onclick="showAlarmPopup()">⏰</div>
+</div>
+
+<div id="green-dot" onclick="showPinPad()"></div>
+
+<div id="clock">
+  <div class="hand hour" id="hour-hand"></div>
+  <div class="hand minute" id="minute-hand"></div>
+  <div class="hand second" id="second-hand"></div>
+  <div id="center-dot"></div>
+</div>
+
+<div id="date-container">
+  <div id="day">Loading...</div>
+  <div id="full-date">Loading...</div>
+</div>
+
+<div id="pin-pad" class="hidden">
+  <div id="pin-display"></div>
+  <div class="buttons">
+    <button onclick="addDigit(1)">1</button>
+    <button onclick="addDigit(2)">2</button>
+    <button onclick="addDigit(3)">3</button>
+    <button onclick="addDigit(4)">4</button>
+    <button onclick="addDigit(5)">5</button>
+    <button onclick="addDigit(6)">6</button>
+    <button onclick="addDigit(7)">7</button>
+    <button onclick="addDigit(8)">8</button>
+    <button onclick="addDigit(9)">9</button>
+    <button onclick="addDigit(0)">0</button>
+    <button onclick="clearPin()">Clear</button>
+    <button onclick="submitPin()">Submit</button>
+  </div>
+</div>
+
+<div id="calendar-popup" class="popup hidden">
+  <div class="popup-header">
+    <span>📅 Current Month</span>
+    <span class="close-btn" onclick="hideCalendar()">×</span>
+  </div>
+  <div id="calendar-content"></div>
+</div>
+
+<div id="alarm-popup" class="popup hidden">
+  <div class="popup-header">
+    <span>⏰ Set Alarm</span>
+    <span class="close-btn" onclick="hideAlarmPopup()">×</span>
+  </div>
+  <input type="time" id="alarm-time">
+  <button onclick="setAlarm()">Set Alarm</button>
+  <ul id="alarm-list"></ul>
+</div>
+
+<audio id="beep-sound" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" preload="auto"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
